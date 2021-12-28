@@ -1,0 +1,83 @@
+
+
+:root{
+    --clr-neon: #f1e4dc;
+    --clr-hg: #04335a;
+}
+body{
+    background: linear-gradient(90deg, rgba(0,41,69,1) 6%, rgb(53, 0, 56) 29%, rgba(7, 33, 71, 1) 84%);
+}
+
+.container{
+    text-align: center;
+    /* background-color: rgb(0, 34, 48); */
+    background: linear-gradient(90deg, rgba(0,41,69,1) 6%, rgb(53, 0, 56) 29%, rgba(7, 33, 71, 1) 84%);
+    border-radius: 6px;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    
+  
+}
+
+input{
+    border: 5px solid orange;
+    font-size: 34px;
+    border-radius: 8px;
+    height: 65px;
+    text-align: center;
+
+}
+
+button{
+    font-size: 35px;
+     background-color: orange; 
+    text-decoration: none;
+    margin-left: 10px;
+    width: 88px;
+    height: 72px;
+    border-radius: 31px;
+    border: -26px solid var(--clr-neon);
+    color: var(--clr-neon);
+    text-shadow: 0 0 0 0.2em rgba(255, 255, 255, 0.363),
+        0 0 1em var(--clr-neon);
+
+    box-shadow: inset 0 0 .4em 0 var(--clr-neon),
+        0 0 .5em 0 var(--clr-neon);
+
+    transition: 0.2s;
+    
+    
+
+     
+}
+button:hover{
+    background-color: rgb(84, 253, 84); 
+}
+
+
+.calculator{
+    display: inline-block;
+    background-color: var(--clr-hg);
+    padding: 22px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border : 1px outset orange;
+
+}
+
+p{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: var(--clr-neon);
+    text-shadow: 0 0 0 0.2em rgba(255, 255, 255, 0.363),
+    0 0 1em var(--clr-neon);
+    box-shadow: inset 0 0 .3em 0 var(--clr-neon),
+    0 0 .3em 0 var(--clr-neon);
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+
+
